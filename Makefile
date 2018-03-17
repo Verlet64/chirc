@@ -1,7 +1,7 @@
 OBJS = src/main.o src/log.o
 DEPS = $(OBJS:.o=.d)
 CC = gcc
-CFLAGS = -g3 -Wall -fpic -std=gnu99 -MMD -MP
+CFLAGS = -g3 -Wall -fpic -std=gnu11 -MMD -MP
 BIN = ./chirc
 LDLIBS = -pthread
 
